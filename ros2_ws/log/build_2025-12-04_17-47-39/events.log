@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (my_intro_pkg) JobQueued: {'identifier': 'my_intro_pkg', 'dependencies': OrderedDict()}
+[0.000401] (sim_cam) JobQueued: {'identifier': 'sim_cam', 'dependencies': OrderedDict()}
+[0.000410] (yolo_detector) JobQueued: {'identifier': 'yolo_detector', 'dependencies': OrderedDict()}
+[0.000416] (my_intro_pkg) JobStarted: {'identifier': 'my_intro_pkg'}
+[0.003573] (sim_cam) JobStarted: {'identifier': 'sim_cam'}
+[0.005179] (yolo_detector) JobStarted: {'identifier': 'yolo_detector'}
+[0.099907] (-) TimerEvent: {}
+[0.200113] (-) TimerEvent: {}
+[0.300297] (-) TimerEvent: {}
+[0.381306] (yolo_detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yolo_detector', 'build', '--build-base', '/home/ros/ros2_ws/build/yolo_detector/build', 'install', '--record', '/home/ros/ros2_ws/build/yolo_detector/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros/ros2_ws/src/yolo_detector', 'env': {'HOSTNAME': '3f9de92b1e40', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/ros/ros2_ws/src/yolo_detector', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/home/ros/ros2_ws/build/yolo_detector', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros/ros2_ws/build/yolo_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/yolo_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.382769] (my_intro_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_intro_pkg', 'build', '--build-base', '/home/ros/ros2_ws/build/my_intro_pkg/build', 'install', '--record', '/home/ros/ros2_ws/build/my_intro_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros/ros2_ws/src/my_intro_pkg', 'env': {'HOSTNAME': '3f9de92b1e40', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/ros/ros2_ws/src/yolo_detector', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/home/ros/ros2_ws/build/my_intro_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros/ros2_ws/build/my_intro_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.384098] (sim_cam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sim_cam', 'build', '--build-base', '/home/ros/ros2_ws/build/sim_cam/build', 'install', '--record', '/home/ros/ros2_ws/build/sim_cam/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros/ros2_ws/src/sim_cam', 'env': {'HOSTNAME': '3f9de92b1e40', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/ros/ros2_ws/src/yolo_detector', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/home/ros/ros2_ws/build/sim_cam', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros/ros2_ws/build/sim_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.400346] (-) TimerEvent: {}
+[0.462183] (my_intro_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.462346] (sim_cam) StdoutLine: {'line': b'running egg_info\n'}
+[0.462457] (yolo_detector) StdoutLine: {'line': b'running egg_info\n'}
+[0.462516] (yolo_detector) StdoutLine: {'line': b'creating ../../build/yolo_detector/yolo_detector.egg-info\n'}
+[0.462553] (sim_cam) StdoutLine: {'line': b'writing ../../build/sim_cam/sim_cam.egg-info/PKG-INFO\n'}
+[0.462586] (my_intro_pkg) StdoutLine: {'line': b'writing ../../build/my_intro_pkg/my_intro_pkg.egg-info/PKG-INFO\n'}
+[0.462662] (yolo_detector) StdoutLine: {'line': b'writing ../../build/yolo_detector/yolo_detector.egg-info/PKG-INFO\n'}
+[0.462698] (sim_cam) StdoutLine: {'line': b'writing dependency_links to ../../build/sim_cam/sim_cam.egg-info/dependency_links.txt\n'}
+[0.462730] (sim_cam) StdoutLine: {'line': b'writing entry points to ../../build/sim_cam/sim_cam.egg-info/entry_points.txt\n'}
+[0.462787] (yolo_detector) StdoutLine: {'line': b'writing dependency_links to ../../build/yolo_detector/yolo_detector.egg-info/dependency_links.txt\n'}
+[0.462816] (yolo_detector) StdoutLine: {'line': b'writing entry points to ../../build/yolo_detector/yolo_detector.egg-info/entry_points.txt\n'}
+[0.462844] (my_intro_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_intro_pkg/my_intro_pkg.egg-info/dependency_links.txt\n'}
+[0.462873] (my_intro_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_intro_pkg/my_intro_pkg.egg-info/entry_points.txt\n'}
+[0.462902] (sim_cam) StdoutLine: {'line': b'writing requirements to ../../build/sim_cam/sim_cam.egg-info/requires.txt\n'}
+[0.462930] (my_intro_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_intro_pkg/my_intro_pkg.egg-info/requires.txt\n'}
+[0.462960] (my_intro_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_intro_pkg/my_intro_pkg.egg-info/top_level.txt\n'}
+[0.462989] (sim_cam) StdoutLine: {'line': b'writing top-level names to ../../build/sim_cam/sim_cam.egg-info/top_level.txt\n'}
+[0.463018] (yolo_detector) StdoutLine: {'line': b'writing requirements to ../../build/yolo_detector/yolo_detector.egg-info/requires.txt\n'}
+[0.463052] (yolo_detector) StdoutLine: {'line': b'writing top-level names to ../../build/yolo_detector/yolo_detector.egg-info/top_level.txt\n'}
+[0.463080] (yolo_detector) StdoutLine: {'line': b"writing manifest file '../../build/yolo_detector/yolo_detector.egg-info/SOURCES.txt'\n"}
+[0.463433] (yolo_detector) StdoutLine: {'line': b"reading manifest file '../../build/yolo_detector/yolo_detector.egg-info/SOURCES.txt'\n"}
+[0.463495] (my_intro_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_intro_pkg/my_intro_pkg.egg-info/SOURCES.txt'\n"}
+[0.463563] (sim_cam) StdoutLine: {'line': b"reading manifest file '../../build/sim_cam/sim_cam.egg-info/SOURCES.txt'\n"}
+[0.463716] (yolo_detector) StdoutLine: {'line': b"writing manifest file '../../build/yolo_detector/yolo_detector.egg-info/SOURCES.txt'\n"}
+[0.463771] (yolo_detector) StdoutLine: {'line': b'running build\n'}
+[0.463809] (yolo_detector) StdoutLine: {'line': b'running build_py\n'}
+[0.463839] (yolo_detector) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/yolo_detector/build\n'}
+[0.463891] (my_intro_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_intro_pkg/my_intro_pkg.egg-info/SOURCES.txt'\n"}
+[0.463928] (yolo_detector) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/yolo_detector/build/lib\n'}
+[0.464009] (yolo_detector) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/yolo_detector/build/lib/yolo_detector\n'}
+[0.464046] (my_intro_pkg) StdoutLine: {'line': b'running build\n'}
+[0.464078] (my_intro_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.464121] (sim_cam) StdoutLine: {'line': b"writing manifest file '../../build/sim_cam/sim_cam.egg-info/SOURCES.txt'\n"}
+[0.464173] (yolo_detector) StdoutLine: {'line': b'copying yolo_detector/__init__.py -> /home/ros/ros2_ws/build/yolo_detector/build/lib/yolo_detector\n'}
+[0.464203] (sim_cam) StdoutLine: {'line': b'running build\n'}
+[0.464237] (sim_cam) StdoutLine: {'line': b'running build_py\n'}
+[0.464267] (yolo_detector) StdoutLine: {'line': b'copying yolo_detector/yolo_detector_node.py -> /home/ros/ros2_ws/build/yolo_detector/build/lib/yolo_detector\n'}
+[0.464298] (my_intro_pkg) StdoutLine: {'line': b'running install\n'}
+[0.464340] (yolo_detector) StdoutLine: {'line': b'running install\n'}
+[0.464371] (sim_cam) StdoutLine: {'line': b'running install\n'}
+[0.464411] (my_intro_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.464451] (yolo_detector) StdoutLine: {'line': b'running install_lib\n'}
+[0.464491] (sim_cam) StdoutLine: {'line': b'running install_lib\n'}
+[0.464638] (yolo_detector) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/yolo_detector/lib/python3.10/site-packages/yolo_detector\n'}
+[0.464753] (yolo_detector) StdoutLine: {'line': b'copying /home/ros/ros2_ws/build/yolo_detector/build/lib/yolo_detector/__init__.py -> /home/ros/ros2_ws/install/yolo_detector/lib/python3.10/site-packages/yolo_detector\n'}
+[0.464800] (yolo_detector) StdoutLine: {'line': b'copying /home/ros/ros2_ws/build/yolo_detector/build/lib/yolo_detector/yolo_detector_node.py -> /home/ros/ros2_ws/install/yolo_detector/lib/python3.10/site-packages/yolo_detector\n'}
+[0.464865] (my_intro_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.464921] (my_intro_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.465027] (yolo_detector) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_ws/install/yolo_detector/lib/python3.10/site-packages/yolo_detector/__init__.py to __init__.cpython-310.pyc\n'}
+[0.465070] (sim_cam) StdoutLine: {'line': b'running install_data\n'}
+[0.465135] (sim_cam) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.465217] (yolo_detector) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_ws/install/yolo_detector/lib/python3.10/site-packages/yolo_detector/yolo_detector_node.py to yolo_detector_node.cpython-310.pyc\n'}
+[0.465549] (yolo_detector) StdoutLine: {'line': b'running install_data\n'}
+[0.465601] (yolo_detector) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/yolo_detector/share/ament_index\n'}
+[0.465643] (my_intro_pkg) StdoutLine: {'line': b"removing '/home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages/my_intro_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.465688] (yolo_detector) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/yolo_detector/share/ament_index/resource_index\n'}
+[0.465887] (yolo_detector) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/yolo_detector/share/ament_index/resource_index/packages\n'}
+[0.465930] (yolo_detector) StdoutLine: {'line': b'copying resource/yolo_detector -> /home/ros/ros2_ws/install/yolo_detector/share/ament_index/resource_index/packages\n'}
+[0.465978] (yolo_detector) StdoutLine: {'line': b'copying package.xml -> /home/ros/ros2_ws/install/yolo_detector/share/yolo_detector\n'}
+[0.466083] (my_intro_pkg) StdoutLine: {'line': b'Copying ../../build/my_intro_pkg/my_intro_pkg.egg-info to /home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages/my_intro_pkg-0.0.0-py3.10.egg-info\n'}
+[0.466102] (sim_cam) StdoutLine: {'line': b"removing '/home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages/sim_cam-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.466134] (yolo_detector) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.466200] (sim_cam) StdoutLine: {'line': b'Copying ../../build/sim_cam/sim_cam.egg-info to /home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages/sim_cam-0.0.0-py3.10.egg-info\n'}
+[0.466514] (my_intro_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.466665] (sim_cam) StdoutLine: {'line': b'running install_scripts\n'}
+[0.466929] (yolo_detector) StdoutLine: {'line': b'Copying ../../build/yolo_detector/yolo_detector.egg-info to /home/ros/ros2_ws/install/yolo_detector/lib/python3.10/site-packages/yolo_detector-0.0.0-py3.10.egg-info\n'}
+[0.467383] (yolo_detector) StdoutLine: {'line': b'running install_scripts\n'}
+[0.475601] (my_intro_pkg) StdoutLine: {'line': b'Installing simple_listener script to /home/ros/ros2_ws/install/my_intro_pkg/lib/my_intro_pkg\n'}
+[0.475687] (sim_cam) StdoutLine: {'line': b'Installing sim_camera_node script to /home/ros/ros2_ws/install/sim_cam/lib/sim_cam\n'}
+[0.475726] (my_intro_pkg) StdoutLine: {'line': b'Installing simple_talker script to /home/ros/ros2_ws/install/my_intro_pkg/lib/my_intro_pkg\n'}
+[0.475784] (sim_cam) StdoutLine: {'line': b"writing list of installed files to '/home/ros/ros2_ws/build/sim_cam/install.log'\n"}
+[0.475841] (my_intro_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ros/ros2_ws/build/my_intro_pkg/install.log'\n"}
+[0.476136] (yolo_detector) StdoutLine: {'line': b'Installing yolo_detector_node script to /home/ros/ros2_ws/install/yolo_detector/lib/yolo_detector\n'}
+[0.476399] (yolo_detector) StdoutLine: {'line': b"writing list of installed files to '/home/ros/ros2_ws/build/yolo_detector/install.log'\n"}
+[0.489179] (sim_cam) CommandEnded: {'returncode': 0}
+[0.494298] (sim_cam) JobEnded: {'identifier': 'sim_cam', 'rc': 0}
+[0.494573] (my_intro_pkg) CommandEnded: {'returncode': 0}
+[0.496663] (my_intro_pkg) JobEnded: {'identifier': 'my_intro_pkg', 'rc': 0}
+[0.497066] (yolo_detector) CommandEnded: {'returncode': 0}
+[0.499337] (yolo_detector) JobEnded: {'identifier': 'yolo_detector', 'rc': 0}
+[0.499601] (-) EventReactorShutdown: {}

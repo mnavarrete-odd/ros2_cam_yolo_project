@@ -1,0 +1,21 @@
+[0.289s] Invoking command in '/home/ros/ros2_ws/src/sim_cam': PYTHONPATH=/home/ros/ros2_ws/build/sim_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_cam build --build-base /home/ros/ros2_ws/build/sim_cam/build install --record /home/ros/ros2_ws/build/sim_cam/install.log --single-version-externally-managed install_data
+[0.366s] running egg_info
+[0.366s] writing ../../build/sim_cam/sim_cam.egg-info/PKG-INFO
+[0.366s] writing dependency_links to ../../build/sim_cam/sim_cam.egg-info/dependency_links.txt
+[0.366s] writing entry points to ../../build/sim_cam/sim_cam.egg-info/entry_points.txt
+[0.366s] writing requirements to ../../build/sim_cam/sim_cam.egg-info/requires.txt
+[0.366s] writing top-level names to ../../build/sim_cam/sim_cam.egg-info/top_level.txt
+[0.367s] reading manifest file '../../build/sim_cam/sim_cam.egg-info/SOURCES.txt'
+[0.367s] writing manifest file '../../build/sim_cam/sim_cam.egg-info/SOURCES.txt'
+[0.367s] running build
+[0.367s] running build_py
+[0.367s] running install
+[0.367s] running install_lib
+[0.368s] running install_data
+[0.368s] running install_egg_info
+[0.369s] removing '/home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages/sim_cam-0.0.0-py3.10.egg-info' (and everything under it)
+[0.369s] Copying ../../build/sim_cam/sim_cam.egg-info to /home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages/sim_cam-0.0.0-py3.10.egg-info
+[0.369s] running install_scripts
+[0.379s] Installing sim_camera_node script to /home/ros/ros2_ws/install/sim_cam/lib/sim_cam
+[0.379s] writing list of installed files to '/home/ros/ros2_ws/build/sim_cam/install.log'
+[0.390s] Invoked command in '/home/ros/ros2_ws/src/sim_cam' returned '0': PYTHONPATH=/home/ros/ros2_ws/build/sim_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_cam build --build-base /home/ros/ros2_ws/build/sim_cam/build install --record /home/ros/ros2_ws/build/sim_cam/install.log --single-version-externally-managed install_data
