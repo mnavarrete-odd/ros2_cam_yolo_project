@@ -1,0 +1,3 @@
+[console_scripts]
+sim_camera_node = sim_cam.sim_camera_node:main
+

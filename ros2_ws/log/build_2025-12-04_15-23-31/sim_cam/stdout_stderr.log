@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/sim_cam/sim_cam.egg-info
+writing ../../build/sim_cam/sim_cam.egg-info/PKG-INFO
+writing dependency_links to ../../build/sim_cam/sim_cam.egg-info/dependency_links.txt
+writing entry points to ../../build/sim_cam/sim_cam.egg-info/entry_points.txt
+writing requirements to ../../build/sim_cam/sim_cam.egg-info/requires.txt
+writing top-level names to ../../build/sim_cam/sim_cam.egg-info/top_level.txt
+writing manifest file '../../build/sim_cam/sim_cam.egg-info/SOURCES.txt'
+reading manifest file '../../build/sim_cam/sim_cam.egg-info/SOURCES.txt'
+writing manifest file '../../build/sim_cam/sim_cam.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros/ros2_ws/build/sim_cam/build
+creating /home/ros/ros2_ws/build/sim_cam/build/lib
+creating /home/ros/ros2_ws/build/sim_cam/build/lib/sim_cam
+copying sim_cam/__init__.py -> /home/ros/ros2_ws/build/sim_cam/build/lib/sim_cam
+copying sim_cam/sim_camera_node.py -> /home/ros/ros2_ws/build/sim_cam/build/lib/sim_cam
+running install
+running install_lib
+creating /home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages/sim_cam
+copying /home/ros/ros2_ws/build/sim_cam/build/lib/sim_cam/__init__.py -> /home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages/sim_cam
+copying /home/ros/ros2_ws/build/sim_cam/build/lib/sim_cam/sim_camera_node.py -> /home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages/sim_cam
+byte-compiling /home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages/sim_cam/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages/sim_cam/sim_camera_node.py to sim_camera_node.cpython-310.pyc
+running install_data
+creating /home/ros/ros2_ws/install/sim_cam/share/ament_index
+creating /home/ros/ros2_ws/install/sim_cam/share/ament_index/resource_index
+creating /home/ros/ros2_ws/install/sim_cam/share/ament_index/resource_index/packages
+copying resource/sim_cam -> /home/ros/ros2_ws/install/sim_cam/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros/ros2_ws/install/sim_cam/share/sim_cam
+running install_egg_info
+Copying ../../build/sim_cam/sim_cam.egg-info to /home/ros/ros2_ws/install/sim_cam/lib/python3.10/site-packages/sim_cam-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sim_camera_node script to /home/ros/ros2_ws/install/sim_cam/lib/sim_cam
+writing list of installed files to '/home/ros/ros2_ws/build/sim_cam/install.log'

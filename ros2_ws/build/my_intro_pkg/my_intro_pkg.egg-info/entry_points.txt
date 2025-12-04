@@ -1,0 +1,4 @@
+[console_scripts]
+simple_listener = my_intro_pkg.simple_listener:main
+simple_talker = my_intro_pkg.simple_talker:main
+

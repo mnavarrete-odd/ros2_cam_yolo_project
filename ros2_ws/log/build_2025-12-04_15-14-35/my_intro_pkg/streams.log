@@ -1,0 +1,41 @@
+[0.229s] Invoking command in '/home/ros/ros2_ws/src/my_intro_pkg': PYTHONPATH=/home/ros/ros2_ws/build/my_intro_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_intro_pkg build --build-base /home/ros/ros2_ws/build/my_intro_pkg/build install --record /home/ros/ros2_ws/build/my_intro_pkg/install.log --single-version-externally-managed install_data
+[0.310s] running egg_info
+[0.310s] creating ../../build/my_intro_pkg/my_intro_pkg.egg-info
+[0.310s] writing ../../build/my_intro_pkg/my_intro_pkg.egg-info/PKG-INFO
+[0.311s] writing dependency_links to ../../build/my_intro_pkg/my_intro_pkg.egg-info/dependency_links.txt
+[0.311s] writing entry points to ../../build/my_intro_pkg/my_intro_pkg.egg-info/entry_points.txt
+[0.311s] writing requirements to ../../build/my_intro_pkg/my_intro_pkg.egg-info/requires.txt
+[0.311s] writing top-level names to ../../build/my_intro_pkg/my_intro_pkg.egg-info/top_level.txt
+[0.311s] writing manifest file '../../build/my_intro_pkg/my_intro_pkg.egg-info/SOURCES.txt'
+[0.312s] reading manifest file '../../build/my_intro_pkg/my_intro_pkg.egg-info/SOURCES.txt'
+[0.312s] writing manifest file '../../build/my_intro_pkg/my_intro_pkg.egg-info/SOURCES.txt'
+[0.312s] running build
+[0.312s] running build_py
+[0.312s] creating /home/ros/ros2_ws/build/my_intro_pkg/build
+[0.312s] creating /home/ros/ros2_ws/build/my_intro_pkg/build/lib
+[0.312s] creating /home/ros/ros2_ws/build/my_intro_pkg/build/lib/my_intro_pkg
+[0.312s] copying my_intro_pkg/__init__.py -> /home/ros/ros2_ws/build/my_intro_pkg/build/lib/my_intro_pkg
+[0.312s] copying my_intro_pkg/simple_talker.py -> /home/ros/ros2_ws/build/my_intro_pkg/build/lib/my_intro_pkg
+[0.312s] copying my_intro_pkg/simple_listener.py -> /home/ros/ros2_ws/build/my_intro_pkg/build/lib/my_intro_pkg
+[0.312s] running install
+[0.313s] running install_lib
+[0.313s] creating /home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages/my_intro_pkg
+[0.313s] copying /home/ros/ros2_ws/build/my_intro_pkg/build/lib/my_intro_pkg/__init__.py -> /home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages/my_intro_pkg
+[0.313s] copying /home/ros/ros2_ws/build/my_intro_pkg/build/lib/my_intro_pkg/simple_talker.py -> /home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages/my_intro_pkg
+[0.313s] copying /home/ros/ros2_ws/build/my_intro_pkg/build/lib/my_intro_pkg/simple_listener.py -> /home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages/my_intro_pkg
+[0.313s] byte-compiling /home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages/my_intro_pkg/__init__.py to __init__.cpython-310.pyc
+[0.314s] byte-compiling /home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages/my_intro_pkg/simple_talker.py to simple_talker.cpython-310.pyc
+[0.314s] byte-compiling /home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages/my_intro_pkg/simple_listener.py to simple_listener.cpython-310.pyc
+[0.314s] running install_data
+[0.314s] creating /home/ros/ros2_ws/install/my_intro_pkg/share/ament_index
+[0.314s] creating /home/ros/ros2_ws/install/my_intro_pkg/share/ament_index/resource_index
+[0.314s] creating /home/ros/ros2_ws/install/my_intro_pkg/share/ament_index/resource_index/packages
+[0.314s] copying resource/my_intro_pkg -> /home/ros/ros2_ws/install/my_intro_pkg/share/ament_index/resource_index/packages
+[0.314s] copying package.xml -> /home/ros/ros2_ws/install/my_intro_pkg/share/my_intro_pkg
+[0.314s] running install_egg_info
+[0.315s] Copying ../../build/my_intro_pkg/my_intro_pkg.egg-info to /home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages/my_intro_pkg-0.0.0-py3.10.egg-info
+[0.316s] running install_scripts
+[0.325s] Installing simple_listener script to /home/ros/ros2_ws/install/my_intro_pkg/lib/my_intro_pkg
+[0.325s] Installing simple_talker script to /home/ros/ros2_ws/install/my_intro_pkg/lib/my_intro_pkg
+[0.325s] writing list of installed files to '/home/ros/ros2_ws/build/my_intro_pkg/install.log'
+[0.336s] Invoked command in '/home/ros/ros2_ws/src/my_intro_pkg' returned '0': PYTHONPATH=/home/ros/ros2_ws/build/my_intro_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/my_intro_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_intro_pkg build --build-base /home/ros/ros2_ws/build/my_intro_pkg/build install --record /home/ros/ros2_ws/build/my_intro_pkg/install.log --single-version-externally-managed install_data
